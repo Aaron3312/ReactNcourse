@@ -35,7 +35,7 @@ export default function App() {
 
 	return (
 		<View style={styles.Appcontainer}>
-			<Button title="Add Goal" color="#a435f0" onPress={startAddGoalHandler} />
+			<Button title="Add Goal" color="#df9bf9" onPress={startAddGoalHandler} />
 			{modalIsVisible && (
 				<GoalInput
 					onAddGoal={addGoalHandler}
